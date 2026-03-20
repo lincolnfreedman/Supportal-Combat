@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SupportalCombat",
+			"Path": "..\\Source\\SupportalCombat.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SupportalCombatEditor",
+			"Path": "..\\Source\\SupportalCombatEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

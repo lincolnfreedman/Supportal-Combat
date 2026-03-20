@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SupportalCombat.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SupportalCombatEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\SupportalCombat">
+      <UniqueIdentifier>{255A83DF-1A90-30AD-B15A-49D41203BEA2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SupportalCombat\SupportalCombat.Build.cs">
+      <Filter>Source\SupportalCombat</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SupportalCombat\SupportalCombat.cpp">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\SupportalCombat.h">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\SupportalCombatCharacter.cpp">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\SupportalCombatCharacter.h">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\SupportalCombatGameMode.cpp">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\SupportalCombatGameMode.h">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\SupportalCombatPlayerController.cpp">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\SupportalCombatPlayerController.h">
+      <Filter>Source\SupportalCombat</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Combat">
+      <UniqueIdentifier>{DBA9D50D-87FB-36B9-AE7C-5FE6D64EF819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SupportalCombat\Variant_Combat\AI">
+      <UniqueIdentifier>{DC799AF0-3735-34ED-9286-E3E856D6E163}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Combat\Animation">
+      <UniqueIdentifier>{54154ED0-BC73-340A-9F78-E143A976104F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\SupportalCombat\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{765FEFDA-A30E-3786-9008-FBDFAA2E4B51}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{B775B1A2-5DFB-37C1-BE11-35274E80EE53}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Combat\UI">
+      <UniqueIdentifier>{B63C6F21-E0E1-3E5A-BB2E-13AD5123437B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\SupportalCombat\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\SupportalCombat\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_Platforming">
+      <UniqueIdentifier>{CAE583BB-7E60-3DE0-B800-80CFDB4815F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SupportalCombat\Variant_Platforming\Animation">
+      <UniqueIdentifier>{8DC78D4C-4F07-3C4B-A274-B8C2B674027B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\SupportalCombat\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\SupportalCombat\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\SupportalCombat\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_SideScrolling">
+      <UniqueIdentifier>{6613AE61-E66A-3564-89FE-9E558F3380A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SupportalCombat\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{9A225D01-2F5F-31F3-8428-4ACE0FEC077D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{A2C39182-BDA8-3BC9-B913-8A5F37F04BE3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{82E0B729-018E-3365-9628-2FF57DCCF688}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\SupportalCombat\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{A348AEF6-8ABA-3F8D-9B53-E263F9FD50FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SupportalCombat\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SupportalCombat\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\SupportalCombat\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\SupportalCombat.uproject" />
+  </ItemGroup>
+</Project>
