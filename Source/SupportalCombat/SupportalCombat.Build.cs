@@ -1,6 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using UnrealBuildTool.Rules;
 
 public class SupportalCombat : ModuleRules
 {
@@ -19,9 +20,9 @@ public class SupportalCombat : ModuleRules
 			"GameplayStateTreeModule",
 			"UMG",
 			"Slate"
-		});
+        });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] { "GameplayAbilities", "GameplayTasks", "GameplayTags" });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"SupportalCombat",
