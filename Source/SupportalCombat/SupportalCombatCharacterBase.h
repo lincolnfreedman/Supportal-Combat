@@ -6,7 +6,9 @@
 #include "GameFramework/Character.h"
 #include "AbilitySystemInterface.h"
 #include "AbilitySystemComponent.h"
+#include "SupportalCombat/GasAttributeSets/BasicAttributeSet.h"
 #include "SupportalCombatCharacterBase.generated.h"
+
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -24,7 +26,10 @@ public:
 
 	// Ability System Component
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
-	class UAbilitySystemComponent* AbilitySystemComponent;
+	UAbilitySystemComponent* AbilitySystemComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
+	class UBasicAttributeSet* BasicAttributeSet;
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
