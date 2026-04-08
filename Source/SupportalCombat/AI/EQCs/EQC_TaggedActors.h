@@ -10,8 +10,7 @@ class SUPPORTALCOMBAT_API UEQC_TaggedActors : public UEnvQueryContext
     GENERATED_BODY()
 
 public:
-    virtual void ProvideContext(FEnvQueryInstance& QueryInstance,
-        FEnvQueryContextData& ContextData) const override;
+    virtual void ProvideContext(FEnvQueryInstance& QueryInstance, FEnvQueryContextData& ContextData) const override;
 
 protected:
     FName ActorTag;
@@ -53,6 +52,30 @@ public:
     UEQC_Allies()
     {
         ActorTag = TEXT("Ally");
+        MaxSearchRadius = 5000.f;
+    }
+};
+
+UCLASS(meta = (DisplayName = "Tree_Guys"))
+class SUPPORTALCOMBAT_API UEQC_TreeGuys : public UEQC_TaggedActors
+{
+    GENERATED_BODY()
+public:
+    UEQC_TreeGuys()
+    {
+        ActorTag = TEXT("TreeGuy");
+        MaxSearchRadius = 5000.f;
+    }
+};
+
+UCLASS(meta = (DisplayName = "Smoke Areas"))
+class SUPPORTALCOMBAT_API UEQC_SmokeAreas : public UEQC_TaggedActors
+{
+    GENERATED_BODY()
+public:
+    UEQC_SmokeAreas()
+    {
+        ActorTag = TEXT("SmokeArea");
         MaxSearchRadius = 5000.f;
     }
 };

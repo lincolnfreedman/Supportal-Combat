@@ -5,7 +5,7 @@
 
 UEQT_ThreatAvoidance::UEQT_ThreatAvoidance()
 {
-	BlackboardFloatKey = TEXT("ThreatLevel");
+	BlackboardFloatKey = TEXT("HealthUrgency");
 	bInvertKeyValue = false;
 	MinWeightMultiplier = 0.15f;
 }
