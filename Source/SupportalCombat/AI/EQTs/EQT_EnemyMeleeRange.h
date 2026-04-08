@@ -3,6 +3,7 @@
 #pragma once
 
 #include "AI/EQTs/EQT_DynamicWeight.h"
+#include "GameplayTagContainer.h"
 #include "EQT_EnemyMeleeRange.generated.h"
 
 /**
@@ -26,7 +27,7 @@ public: UEQT_EnemyMeleeRange();
       float StunnedBonusMultiplier = 2.0f;
 
       UPROPERTY(EditAnywhere, Category = "Melee")
-      FName StunnedTag = TEXT("Stunned");
+      FGameplayTag StunnedTag;
 
       UPROPERTY(EditAnywhere, Category = "Melee")
       TSubclassOf<UEnvQueryContext> EnemyContext;

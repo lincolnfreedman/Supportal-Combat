@@ -3,6 +3,8 @@
 
 #include "AI/EQTs/EQT_EnemyMeleeRange.h"
 #include "EnvironmentQuery/Items/EnvQueryItemType_Actor.h"
+#include "AbilitySystemComponent.h"
+#include "AbilitySystemGlobals.h"
 
 UEQT_EnemyMeleeRange::UEQT_EnemyMeleeRange()
 {
@@ -27,7 +29,12 @@ void UEQT_EnemyMeleeRange::RunTest(FEnvQueryInstance& QueryInstance) const
         FEnemyInfo Info;
         Info.Location = Actor->GetActorLocation();
 
-        Info.bIsStunned = Actor->ActorHasTag(StunnedTag);
+        Info.bIsStunned = false;
+		UAbilitySystemComponent* ASC = UAbilitySystemGlobals::GetAbilitySystemComponentFromActor(Actor);
+        if (ASC) 
+        {
+			Info.bIsStunned = ASC->HasMatchingGameplayTag(StunnedTag);
+        }
 
         CachedEnemies.Add(Info);
     }
