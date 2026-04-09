@@ -71,5 +71,5 @@ float UEQT_EnemyMeleeRange::ScoreItem(const FVector& ItemLocation) const
         BestScore = FMath::Max(BestScore, Score);
     }
 
-    return FMath::Clamp(BestScore, 0.f, 1.f);
+    return FMath::Clamp(BestScore / StunnedBonusMultiplier, 0.f, 1.f);
 }
